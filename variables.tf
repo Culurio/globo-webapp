@@ -36,3 +36,13 @@ variable "api_key" {
   type        = string
   description = "(Required) API key for web app to talk to SaaS platform."
 }
+
+variable "tfe_organization" {
+  type        = string
+  description = "(Required) TFE Organization to use for remote state."
+}
+
+variable "tfe_workspaces_name" {
+  type        = string
+  description = "(Required) TFE Workspace Name to use for remote state."
+}
