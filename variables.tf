@@ -46,3 +46,8 @@ variable "tfe_workspaces_name" {
   type        = string
   description = "(Required) TFE Workspace Name to use for remote state."
 }
+
+variable "playbook_repository" {
+  type        = string
+  description = "uri of playbook"
+}
